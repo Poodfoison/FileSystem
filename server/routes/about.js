@@ -12,5 +12,5 @@ const readJSON = async () => {
 }
 
 
-//readJSON();
-document.querySelector(`aboutData`).innerHTML = readJSON.Name;
+readJSON();
+//document.getElementById("aboutData").innerHTML = readJSON.Name;

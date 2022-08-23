@@ -11,8 +11,5 @@ const readJSON = async () => {
   }
 }
 
-// keep note that readJSON is asynchronous!
 readJSON();
 //document.getElementById(`aboutData`).innerHTML = readJSON.Name;
-//Getting Error in trying to display json file data to HTML
-//Error is that document is not defined
