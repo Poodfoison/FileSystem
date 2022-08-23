@@ -18,6 +18,7 @@ const requestListener = async (req, res) => {
     else if (req.url ==='/about' ){
         try {
              file = await fs.readFile("./routes/about.html")
+             file = await fs.readFile("./routes/details.json")
             
         } catch (error) {
             res.writeHead(500)
@@ -27,6 +28,7 @@ const requestListener = async (req, res) => {
     else if (req.url ==='/contacts' ){
         try {
              file = await fs.readFile("./routes/contacts.html")
+             file = await fs.readFile("./routes/contacts.json")
             
         } catch (error) {
             res.writeHead(500)
