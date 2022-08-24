@@ -1,6 +1,4 @@
-[
-    {
-        "Email": "Brainiac1591@gmail.com",
-        "Phone": 92737428654
-    }
-]
+{
+    "phone": "09273428654",
+    "emailAddress": "brainiac1591@gmail.com"
+}

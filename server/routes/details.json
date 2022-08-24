@@ -1,11 +1,7 @@
-    [
-    {
-
-        "Name": "Patrick Henry Sarmiento",
-        "Age": 30,
-        "Hobies": "Online Games",
-        "Pet": "Dog",
-        "favoriteFood": "Lumpia"
-
-    }
-]
+{
+"name":"Patrick Henry Sarmiento",
+"age":30,
+"hobbies":"MMA, Jiu Jitsu",
+"pet":"Dog",
+"favoriteFood":"Lumpia"
+}
