@@ -109,15 +109,15 @@ app.get('/view', authID, priviledge(["MASTER", "VIEW"]),  (req, res) => {
     res.send("View");
 });
 
-app.get('/insert', authID, (req, res) => {
+app.get('/insert', authID, priviledge(["MASTER", "INSERT"]), (req, res) => {
     res.send("Insert");
 });
 
-app.get('/modify', authID, (req, res) => {
+app.get('/modify', authID, priviledge(["MASTER", "MODIFY"]), (req, res) => {
     res.send("Modify");
 });
 
-app.get('/delete', authID, (req, res) => {
+app.get('/delete', authID, priviledge(["MASTER", "DELETE"]), (req, res) => {
     res.send("Delete");
 });
 
